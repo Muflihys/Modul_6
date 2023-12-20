@@ -23,7 +23,7 @@ class StoreProductCategoryRequest extends FormRequest
     {
         return [
             "name"=> "string|required",
-            "descriptiom"=> "string|required"
+            "description"=> "string|required"
             //
         ];
     }
